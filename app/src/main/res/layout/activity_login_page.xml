@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/log_in_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Login_page">
+    <TextView
+        android:id="@+id/enter_your_"
+        android:layout_width="265dp"
+        android:layout_height="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="132dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/enter_your_"
+        android:gravity="center_horizontal|top" />
+    <TextView
+        android:id="@+id/whatsapp_wi"
+        android:layout_width="337dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:text="@string/whatsapp_wi"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:letterSpacing="0.02"
+        android:gravity="center_horizontal|top" />
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/whatsapp_wi"
+        android:layout_width="265dp"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal|top"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="265dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:background="@color/gray"
+        android:inputType="phone"
+        android:layout_below="@id/ccp"/>
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="#5F7752"
+        android:layout_marginTop="590dp"
+        android:gravity="center"
+        android:text="@string/next"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+</RelativeLayout>

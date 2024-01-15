@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome_pag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Welcome_page">
+    <TextView
+        android:id="@+id/welcome_to_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:text="@string/welcome_to_"
+        android:gravity="center" />
+    <View
+        android:id="@+id/image_1"
+        android:layout_below="@id/welcome_to_"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/image_1"/>
+    <TextView
+        android:id="@+id/read_our_pr"
+        android:layout_width="278dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="385dp"
+        android:text="@string/read_our_pr"
+        android:textSize="13sp"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="#5F7752"
+        android:layout_marginTop="430dp"
+        android:gravity="center"
+        android:text="@string/agree_and_c"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/from"
+        android:layout_below="@id/button1"
+        android:layout_width="50dp"
+        android:layout_height="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="585dp"
+        android:text="@string/from"
+        android:textSize="12sp"
+        android:textColor="#867373"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/facebook"
+        android:layout_below="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="600dp"
+        android:text="@string/SI"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:letterSpacing="0.15"
+        android:gravity="center" />
+</RelativeLayout>

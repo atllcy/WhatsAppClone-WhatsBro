@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">WhatsBro</string>
+    <string name="welcome_to_">
+        Welcome to WhatsBro
+    </string>
+    <string name="read_our_pr">
+        Read our Privacy Policy. Tap “Agree and continue” to
+                    accept the Teams of Service.
+    </string>
+    <string name="agree_and_c">
+        AGREE AND CONTINUE
+    </string>
+    <string name="from">
+        from
+    </string>
+    <string name="SI">
+        information system
+    </string>
+    <string name="enter_your_">
+        Enter your phone number
+    </string>
+    <string name="whatsapp_wi">
+        WhatsApp will need to verify your phone number. What’s    my number?
+    </string>
+    <string name="next">
+        NEXT
+    </string>
+    <string name="page_title">
+        Enter OTP Code
+    </string>
+    <string name="code_has_be">
+        Code has been send to your number
+    </string>
+    <string name="show">
+        VERIFICATION
+    </string>
+    <string name="resend_code">
+        Resend Code in 56 s
+    </string>
+    <string name="todo">FAB</string>
+    <string name="fol">Follow</string>
+
+    <!-- List Chat Names -->
+    <string-array name="chatNames">
+        <item>Naya</item>
+        <item>Wardani</item>
+        <item>Tajuddin</item>
+        <item>Husnul</item>
+        <item>Aila</item>
+        <item>Kak Bahaudin</item>
+        <item>Kak Iqbal</item>
+        <item>Kak Madyan</item>
+        <item>Kak Sulis</item>
+        <item>Pak Rizki</item>
+        <item>Pak Yasid</item>
+        <item>DEP SI22</item>
+        <item>SISTEM INFORMASI 22</item>
+    </string-array>
+
+    <!-- Chat Messages -->
+    <string-array name="chatMessages">
+        <item>ke kampus jam berapa</item>
+        <item>Apa kabar?</item>
+        <item>Assalamualaikum</item>
+        <item>bro dimana?</item>
+        <item>Bjirrrr bolehhh</item>
+        <item>Jangan lupa asistensi jam 9</item>
+        <item>Ayo asistensi</item>
+        <item>Kakak tunggu di Leriya ya</item>
+        <item>Asistensi nya di kos kakak ya</item>
+        <item>Sebentar ya mas saya masih di jalan</item>
+        <item>Emang saya pernah ngajar ya?</item>
+        <item>Jangan lupa sholat kawan-kawan</item>
+        <item>Libur yok libur</item>
+    </string-array>
+
+    <!-- Time Stamps -->
+    <string-array name="timeStamps">
+        <item>15:00</item>
+        <item>12:30</item>
+        <item>07:55</item>
+        <item>Yesterday</item>
+        <item>Yesterday</item>
+        <item>12/27/23</item>
+        <item>Yesterday</item>
+        <item>12/24/23</item>
+        <item>12/21/23</item>
+        <item>21:30</item>
+        <item>Yesterday</item>
+        <item>17:31</item>
+        <item>12/31/23</item>
+    </string-array>
+
+    <!--CALL FRAGMENT-->
+    <!--  call name  -->
+    <string-array name="callNames">
+        <item>Lala (SI 23)</item>
+        <item>Kak Awie (SI 21)</item>
+        <item>Pak Rizki</item>
+        <item>Information System</item>
+        <item>Aila SI B</item>
+        <item>Tia SI B</item>
+        <item>Echa SI A</item>
+        <item>Ketum Himasi</item>
+        <item>GOFUD</item>
+        <item>Mr.Didin</item>
+        <item>Pak Rektor</item>
+        <item>SIFORCE23</item>
+        <item>Pak Yasid</item>
+    </string-array>
+    <!-- Time Stamps -->
+    <string-array name="callTimes">
+        <item>Today, 03:10</item>
+        <item>Yesterday, 12:59</item>
+        <item>Yesterday, 06:11</item>
+        <item>January 2, 07:27</item>
+        <item>January 1, 10:10</item>
+        <item>12/28/23, 15:00</item>
+        <item>12/27/23, 13:51</item>
+        <item>12/26/23, 17:28</item>
+        <item>12/24/23, 12:03</item>
+        <item>12/20/23, 14:45</item>
+        <item>11/21/23, 23:10</item>
+        <item>11/01/23, 17:31</item>
+        <item>10/31/23, 10:45</item>
+    </string-array>
+
+</resources>
